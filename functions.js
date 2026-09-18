@@ -14,5 +14,10 @@ greetStudent('Lance');
 function add(x, y) {
   return x + y;
 }
-
 console.log(add(10, 20));
+
+// arrow function
+const dif = (a, b) => {
+  return a - b;
+};
+console.log(dif(10, 20));
