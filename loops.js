@@ -39,10 +39,15 @@ for (let i = 0; i < names.length; i++) {
   console.log(names[i]);
 }
 
-// new way:
-let colors = ['Green', 'Purple', 'Orange'];
+// for loop (of) - outputs the array values
+let colors = ['Green', 'Purple', 'Orange', 'Blue', 'Yellow'];
 for (let color of colors) {
   console.log(color);
+}
+
+// for loop (in) - this outputs the array index number
+for (let c in colors) {
+  console.log(c);
 }
 
 // Nested for loops
