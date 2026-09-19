@@ -1,10 +1,23 @@
-// for loops
+// for loop
 let count = 10;
 
 // for(initialization; condition; afterthought){}
 for (let i = 1; i <= 10; i++) {
   console.log(`Count: ${i}`);
 }
+
+// while loop
+let num = 0;
+while (num < 10) {
+  num++;
+  console.log(`While loop: ${num}`);
+}
+
+// do while loop
+do {
+  num--;
+  console.log(`Do while: ${num}`);
+} while (num > 0);
 
 // controlling the loop: break and continue
 for (let i = 1; i <= 5; i++) {
