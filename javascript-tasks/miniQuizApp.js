@@ -10,6 +10,7 @@ const questions = [
 ];
 
 const runMiniQuizApp = (quizQuestions) => {
+  let score = 0;
   for (let question of quizQuestions) {
     alert(question.question);
 
@@ -18,10 +19,13 @@ const runMiniQuizApp = (quizQuestions) => {
 
     if (answer === question.answer) {
       alert('Correct!');
+      score++;
     } else {
       alert('Wrong!');
     }
   }
+
+  alert(`Score: ${score}/${quizQuestions.length}`);
 };
 
 runMiniQuizApp(questions);
